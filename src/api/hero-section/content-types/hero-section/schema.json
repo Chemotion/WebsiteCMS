@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_sections",
+  "info": {
+    "singularName": "hero-section",
+    "pluralName": "hero-sections",
+    "displayName": "Hero Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "heroTitle": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "buttonText": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

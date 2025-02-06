@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "eln_hero_sections",
+  "info": {
+    "singularName": "eln-hero-section",
+    "pluralName": "eln-hero-sections",
+    "displayName": "ELN Hero Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "heroTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "blocks"
+    }
+  }
+}
