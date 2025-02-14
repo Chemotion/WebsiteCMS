@@ -1,12 +1,13 @@
-const { mergeConfig } = require("vite");
-
 module.exports = (config) => {
   // Important: always return the modified config
-  return mergeConfig(config, {
+  return {
+    ...config,
     resolve: {
+      ...(config.resolve || {}),
       alias: {
-        "@": "/src",
+        ...(config.resolve?.alias || {}),
+        '@': '/src',
       },
     },
-  });
+  };
 };

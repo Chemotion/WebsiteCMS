@@ -491,37 +491,6 @@ export interface ApiDeviceSectionDeviceSection extends Struct.SingleTypeSchema {
   };
 }
 
-export interface ApiElementSectionElementSection
-  extends Struct.SingleTypeSchema {
-  collectionName: 'element_sections';
-  info: {
-    displayName: 'Element Section';
-    pluralName: 'element-sections';
-    singularName: 'element-section';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    createdAt: Schema.Attribute.DateTime;
-    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-    details: Schema.Attribute.Blocks;
-    heroImage: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    locale: Schema.Attribute.String & Schema.Attribute.Private;
-    localizations: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::element-section.element-section'
-    > &
-      Schema.Attribute.Private;
-    publishedAt: Schema.Attribute.DateTime;
-    title: Schema.Attribute.String;
-    updatedAt: Schema.Attribute.DateTime;
-    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-  };
-}
-
 export interface ApiElnFourStepsSectionElnFourStepsSection
   extends Struct.CollectionTypeSchema {
   collectionName: 'eln_four_steps_sections';
@@ -611,38 +580,6 @@ export interface ApiElnHeroSectionElnHeroSection
       'api::eln-hero-section.eln-hero-section'
     >;
     publishedAt: Schema.Attribute.DateTime;
-    updatedAt: Schema.Attribute.DateTime;
-    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-  };
-}
-
-export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
-  collectionName: 'globals';
-  info: {
-    description: 'Define global settings';
-    displayName: 'Global';
-    pluralName: 'globals';
-    singularName: 'global';
-  };
-  options: {
-    draftAndPublish: false;
-  };
-  attributes: {
-    createdAt: Schema.Attribute.DateTime;
-    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-    defaultSeo: Schema.Attribute.Component<'shared.seo', false>;
-    favicon: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
-    locale: Schema.Attribute.String & Schema.Attribute.Private;
-    localizations: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::global.global'
-    > &
-      Schema.Attribute.Private;
-    publishedAt: Schema.Attribute.DateTime;
-    siteDescription: Schema.Attribute.Text & Schema.Attribute.Required;
-    siteName: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1343,10 +1280,8 @@ declare module '@strapi/strapi' {
       'admin::user': AdminUser;
       'api::demo-section.demo-section': ApiDemoSectionDemoSection;
       'api::device-section.device-section': ApiDeviceSectionDeviceSection;
-      'api::element-section.element-section': ApiElementSectionElementSection;
       'api::eln-four-steps-section.eln-four-steps-section': ApiElnFourStepsSectionElnFourStepsSection;
       'api::eln-hero-section.eln-hero-section': ApiElnHeroSectionElnHeroSection;
-      'api::global.global': ApiGlobalGlobal;
       'api::hero-section.hero-section': ApiHeroSectionHeroSection;
       'api::labimotion-section.labimotion-section': ApiLabimotionSectionLabimotionSection;
       'api::repository-section.repository-section': ApiRepositorySectionRepositorySection;

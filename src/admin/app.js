@@ -1,4 +1,4 @@
-import Logo from "./extensions/chemotion-icon.png";
+import Logo from "./extensions/icon.png";
 
 const bootstrap = (app) => {
   console.log(app);
