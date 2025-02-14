@@ -20,7 +20,10 @@ module.exports = ({ env }) => {
           rejectUnauthorized: env.bool('DATABASE_SSL_REJECT_UNAUTHORIZED', true)
         }
       },
-      pool: { min: env.int('DATABASE_POOL_MIN', 2), max: env.int('DATABASE_POOL_MAX', 10) }
+      pool: {
+        min: env.int('DATABASE_POOL_MIN', 2),
+        max: env.int('DATABASE_POOL_MAX', 10)
+      }
     },
     postgres: {
       connection: {
@@ -40,11 +43,19 @@ module.exports = ({ env }) => {
         },
         schema: env('DATABASE_SCHEMA', 'public')
       },
-      pool: { min: env.int('DATABASE_POOL_MIN', 2), max: env.int('DATABASE_POOL_MAX', 10) }
+      pool: {
+        min: env.int('DATABASE_POOL_MIN', 2),
+        max: env.int('DATABASE_POOL_MAX', 10)
+      }
     },
     sqlite: {
       connection: {
-        filename: env('DATABASE_FILENAME', './database/data.db')
+        filename: path.join(
+          // eslint-disable-next-line no-undef
+          __dirname,
+          '..',
+          env('DATABASE_FILENAME', './database/data.db')
+        )
       },
       useNullAsDefault: true
     }
