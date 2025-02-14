@@ -2,13 +2,14 @@
   "name": "chemotion-cms",
   "version": "0.1.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "Chemotion Strapi",
   "scripts": {
     "build": "strapi build",
     "deploy": "strapi deploy",
     "dev": "strapi develop",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.10.2",

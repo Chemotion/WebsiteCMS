@@ -6,8 +6,8 @@ module.exports = (config) => {
       ...(config.resolve || {}),
       alias: {
         ...(config.resolve?.alias || {}),
-        '@': '/src',
-      },
-    },
+        '@': '/src'
+      }
+    }
   };
 };
