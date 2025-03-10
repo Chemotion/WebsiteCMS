@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "N. About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "partOneContent": {
+      "type": "blocks"
+    },
+    "partTwoContent": {
+      "type": "blocks"
+    },
+    "partTwoImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "partThreeContent": {
+      "type": "blocks"
+    },
+    "imprintContent": {
+      "type": "blocks"
+    }
+  }
+}

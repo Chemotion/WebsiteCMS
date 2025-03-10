@@ -4,7 +4,8 @@
   "info": {
     "singularName": "eln-four-steps-section",
     "pluralName": "eln-four-steps-sections",
-    "displayName": "ELNFourStepsSection"
+    "displayName": "E. Four Cards Section",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -40,20 +41,20 @@
       "type": "blocks"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": false
+      }
     }
   }
 }

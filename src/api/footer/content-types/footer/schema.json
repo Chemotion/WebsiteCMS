@@ -1,0 +1,180 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "M. Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "fundedText": {
+      "type": "string"
+    },
+    "dfgLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "dfgLink": {
+      "type": "string"
+    },
+    "kitLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "kitLink": {
+      "type": "string"
+    },
+    "bwLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bwLink": {
+      "type": "string"
+    },
+    "youtubeLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "youtubeText": {
+      "type": "string"
+    },
+    "youtubeLink": {
+      "type": "string"
+    },
+    "instagramLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "instagramText": {
+      "type": "string"
+    },
+    "instagramLink": {
+      "type": "string"
+    },
+    "linkedinLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "linkedinText": {
+      "type": "string"
+    },
+    "linkedinLink": {
+      "type": "string"
+    },
+    "elncodeLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "elncodeText": {
+      "type": "string"
+    },
+    "elncodeLink": {
+      "type": "string"
+    },
+    "copyrightText": {
+      "type": "string"
+    },
+    "copyrightLinkText": {
+      "type": "string"
+    },
+    "accessibilityText": {
+      "type": "string"
+    },
+    "accessibilityLink": {
+      "type": "string"
+    },
+    "privacyText": {
+      "type": "string"
+    },
+    "privacyLink": {
+      "type": "string"
+    },
+    "imprintText": {
+      "type": "string"
+    },
+    "imprintLink": {
+      "type": "string"
+    },
+    "repoLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "repoText": {
+      "type": "string"
+    },
+    "repoLink": {
+      "type": "string"
+    },
+    "homeText": {
+      "type": "string"
+    },
+    "homeLink": {
+      "type": "string"
+    }
+  }
+}

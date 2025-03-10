@@ -1,0 +1,90 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigation_bars",
+  "info": {
+    "singularName": "navigation-bar",
+    "pluralName": "navigation-bars",
+    "displayName": "A. Navigation Bar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logoText": {
+      "type": "string"
+    },
+    "elnButton": {
+      "type": "string"
+    },
+    "elnLink": {
+      "type": "string"
+    },
+    "labimotionButton": {
+      "type": "string"
+    },
+    "labimotionLink": {
+      "type": "string"
+    },
+    "repoButton": {
+      "type": "string"
+    },
+    "repoLink": {
+      "type": "string"
+    },
+    "aboutButton": {
+      "type": "string"
+    },
+    "aboutLink": {
+      "type": "string"
+    },
+    "helpdeskButton": {
+      "type": "string"
+    },
+    "helpdeskLink": {
+      "type": "string"
+    },
+    "docsButton": {
+      "type": "string"
+    },
+    "docsLink": {
+      "type": "string"
+    },
+    "searchIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "searchText": {
+      "type": "string"
+    },
+    "searchSubText": {
+      "type": "string"
+    },
+    "searchTextMobileView": {
+      "type": "string"
+    }
+  }
+}

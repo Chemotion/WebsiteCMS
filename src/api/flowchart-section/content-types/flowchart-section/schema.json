@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "flowchart_sections",
+  "info": {
+    "singularName": "flowchart-section",
+    "pluralName": "flowchart-sections",
+    "displayName": "C. Flowchart Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "flowchartImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

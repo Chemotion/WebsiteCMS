@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "two_cards_sections",
+  "info": {
+    "singularName": "two-cards-section",
+    "pluralName": "two-cards-sections",
+    "displayName": "I. Two Cards Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "exploreCard": {
+      "type": "blocks"
+    },
+    "installCard": {
+      "type": "blocks"
+    },
+    "exploreButtonText": {
+      "type": "string"
+    },
+    "exploreButtonLink": {
+      "type": "string"
+    },
+    "installButtonText": {
+      "type": "string"
+    },
+    "installButtonLink": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "accessibility_pages",
+  "info": {
+    "singularName": "accessibility-page",
+    "pluralName": "accessibility-pages",
+    "displayName": "P. Accessibility Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "pageContent": {
+      "type": "blocks"
+    }
+  }
+}

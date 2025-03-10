@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "video_sections",
+  "info": {
+    "singularName": "video-section",
+    "pluralName": "video-sections",
+    "displayName": "F. Video Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "videoTitle": {
+      "type": "string"
+    },
+    "videoURL": {
+      "type": "string"
+    },
+    "warningMessage": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

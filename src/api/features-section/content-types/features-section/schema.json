@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "features_sections",
+  "info": {
+    "singularName": "features-section",
+    "pluralName": "features-sections",
+    "displayName": "G. Features Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "features": {
+      "type": "blocks"
+    },
+    "title": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "fileDownloadLink": {
+      "type": "string"
+    },
+    "generatedPDFTitleText": {
+      "type": "string"
+    },
+    "generatedPDFDescription": {
+      "type": "text"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

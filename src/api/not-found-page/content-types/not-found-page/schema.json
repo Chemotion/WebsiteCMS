@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "not_found_pages",
+  "info": {
+    "singularName": "not-found-page",
+    "pluralName": "not-found-pages",
+    "displayName": "R. NotFound Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mainText": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}
