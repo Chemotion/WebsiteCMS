@@ -1059,6 +1059,7 @@ export interface ApiVideoSectionVideoSection extends Struct.SingleTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> & Schema.Attribute.Private;
+    videoThumbnail: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     videoTitle: Schema.Attribute.String;
     videoURL: Schema.Attribute.String;
     warningMessage: Schema.Attribute.String;
