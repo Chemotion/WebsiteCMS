@@ -1,10 +1,10 @@
 # Chemotion CMS
 
-A Strapi-based Content Management System (CMS) for the Chemotion Website.
+A Content Management System (CMS) for the Chemotion Website.
 
 ## Overview
 
-Chemotion CMS is a headless CMS built on Strapi. This backend system manages the content for the Chemotion Website, allowing for streamlined content creation, management, and distribution.
+Chemotion CMS is a headless CMS built on Strapi. This backend system manages the content for the Chemotion Website, allowing for streamlined content changes.
 
 ## Contributing
 
