@@ -4,15 +4,7 @@ A Content Management System (CMS) for the Chemotion Website.
 
 ## Overview
 
-Chemotion CMS is a headless CMS built on Strapi. This backend system manages the content for the Chemotion Website, allowing for streamlined content changes.
-
-## Contributing
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/FeatureName`)
-3. Commit your Changes (`git commit -m 'Add FeatureName'`)
-4. Push to the Branch (`git push origin feature/FeatureName`)
-5. Open a Pull Request
+Chemotion CMS is a headless CMS built on Strapi. This backend system manages the content for the Chemotion Website, allowing for real-time content changes.
 
 ## License
 
