@@ -758,16 +758,17 @@ export interface ApiHeroSectionHeroSection extends Struct.SingleTypeSchema {
       }>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> & Schema.Attribute.Private;
+    darkModeBackground: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     demoButtonLink: Schema.Attribute.String;
     demoButtonSVG: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     demoButtonText: Schema.Attribute.String;
-    heroBackgroundSVG: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     heroTitle: Schema.Attribute.Blocks &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
+    lightModeBackground: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::hero-section.hero-section'>;
     publishedAt: Schema.Attribute.DateTime;
