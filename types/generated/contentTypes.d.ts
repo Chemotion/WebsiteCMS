@@ -688,6 +688,8 @@ export interface ApiFooterFooter extends Struct.SingleTypeSchema {
     linkedinText: Schema.Attribute.String;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::footer.footer'>;
+    nfdi4chemLink: Schema.Attribute.String;
+    nfdi4chemLogo: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     privacyLink: Schema.Attribute.String;
     privacyText: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;

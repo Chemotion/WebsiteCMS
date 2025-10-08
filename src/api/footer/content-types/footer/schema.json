@@ -175,6 +175,19 @@
     },
     "homeLink": {
       "type": "string"
+    },
+    "nfdi4chemLink": {
+      "type": "string"
+    },
+    "nfdi4chemLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
