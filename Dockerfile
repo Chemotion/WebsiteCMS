@@ -1,7 +1,7 @@
 FROM node:24-slim AS build
 WORKDIR /opt/app
 COPY package*.json ./
-RUN npm install --omit=dev
+RUN npm install
 COPY . .
 RUN npm rebuild better-sqlite3 && npm run strapi build
 
