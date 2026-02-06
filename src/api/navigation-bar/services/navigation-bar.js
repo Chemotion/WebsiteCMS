@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * navigation-bar service
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require("@strapi/strapi").factories;
 
-module.exports = createCoreService('api::navigation-bar.navigation-bar');
+module.exports = createCoreService("api::navigation-bar.navigation-bar");

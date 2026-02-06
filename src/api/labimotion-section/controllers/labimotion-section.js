@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * labimotion-section controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::labimotion-section.labimotion-section');
+module.exports = createCoreController(
+  "api::labimotion-section.labimotion-section",
+);

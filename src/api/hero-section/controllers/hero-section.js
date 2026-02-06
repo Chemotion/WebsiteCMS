@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * hero-section controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::hero-section.hero-section');
+module.exports = createCoreController("api::hero-section.hero-section");

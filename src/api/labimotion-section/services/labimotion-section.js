@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * labimotion-section service
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require("@strapi/strapi").factories;
 
-module.exports = createCoreService('api::labimotion-section.labimotion-section');
+module.exports = createCoreService(
+  "api::labimotion-section.labimotion-section",
+);

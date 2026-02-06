@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * privacy-page router
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::privacy-page.privacy-page');
+module.exports = createCoreRouter("api::privacy-page.privacy-page");

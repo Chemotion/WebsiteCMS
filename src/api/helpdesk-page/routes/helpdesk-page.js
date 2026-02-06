@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * helpdesk-page router
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::helpdesk-page.helpdesk-page');
+module.exports = createCoreRouter("api::helpdesk-page.helpdesk-page");

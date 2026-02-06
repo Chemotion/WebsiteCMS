@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * features-section router
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::features-section.features-section');
+module.exports = createCoreRouter("api::features-section.features-section");

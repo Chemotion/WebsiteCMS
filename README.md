@@ -12,4 +12,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-- Mostafa Mekky - [mekky@kit.edu](mailto:mekky@kit.edu)
+- [Shashank S. Harivyasi](mailto:shashank.harivyasi@kit.edu)

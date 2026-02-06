@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * two-cards-section controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::two-cards-section.two-cards-section');
+module.exports = createCoreController(
+  "api::two-cards-section.two-cards-section",
+);

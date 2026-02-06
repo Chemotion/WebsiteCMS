@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * not-found-page controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::not-found-page.not-found-page');
+module.exports = createCoreController("api::not-found-page.not-found-page");

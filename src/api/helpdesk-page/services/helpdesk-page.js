@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * helpdesk-page service
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require("@strapi/strapi").factories;
 
-module.exports = createCoreService('api::helpdesk-page.helpdesk-page');
+module.exports = createCoreService("api::helpdesk-page.helpdesk-page");

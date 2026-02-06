@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * device-section service
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require("@strapi/strapi").factories;
 
-module.exports = createCoreService('api::device-section.device-section');
+module.exports = createCoreService("api::device-section.device-section");

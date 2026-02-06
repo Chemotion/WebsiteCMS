@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * hero-section router
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::hero-section.hero-section');
+module.exports = createCoreRouter("api::hero-section.hero-section");
