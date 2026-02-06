@@ -9,4 +9,4 @@ FROM node:24-slim
 WORKDIR /opt/app
 COPY --from=build /opt/app ./
 EXPOSE 1337
-CMD ["npm", "run", "strapi" "start"]
+CMD ["npm", "run", "strapi", "start"]
