@@ -1,8 +1,12 @@
 FROM node:24-slim AS build
-COPY . /app
-WORKDIR /app
-ENV NODE_ENV=production
-RUN npm install
+WORKDIR /opt/app
+COPY package*.json ./
+RUN npm install --omit=dev
+COPY . .
+RUN npm rebuild better-sqlite3 && npm run strapi build
+
+FROM node:24-slim
+WORKDIR /opt/app
+COPY --from=build /opt/app ./
 EXPOSE 1337
-RUN npm run strapi build
-CMD ["npm", "run", "strapi", "start"]
+CMD ["npm", "run", "strapi" "start"]
