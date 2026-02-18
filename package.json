@@ -1,8 +1,8 @@
 {
-  "name": "chemotion-cms",
+  "name": "chemotion-website-cms",
   "version": "0.1.0",
   "private": true,
-  "description": "Chemotion Strapi",
+  "description": "A Strapi application",
   "scripts": {
     "build": "strapi build",
     "console": "strapi console",
@@ -12,37 +12,25 @@
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
-    "upgrade:dry": "npx @strapi/upgrade latest --dry",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.12.0",
-    "@strapi/plugin-users-permissions": "5.12.0",
-    "@strapi/strapi": "5.12.0",
-    "better-sqlite3": "11.3.0",
+    "@strapi/plugin-cloud": "5.36.0",
+    "@strapi/plugin-users-permissions": "5.36.0",
+    "@strapi/strapi": "5.36.0",
+    "better-sqlite3": "12.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {
-    "@babel/eslint-parser": "^7.26.8",
-    "@babel/preset-react": "^7.26.3",
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.20.0",
-    "eslint": "^9.20.1",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "prettier": "^3.4.2"
-  },
+  "devDependencies": {},
   "engines": {
-    "node": ">=18.0.0 <=22.x.x",
+    "node": ">=20.0.0 <=24.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "89fa3787-ac72-4373-aafa-1ea0ab8aeb5b"
+    "uuid": "47a94289-76eb-4c14-babb-79c836cd7b55",
+    "installId": "b970a5bff286d8746b4bdd380f11ee532da48fc51bfd970734c8e6ba480f04f5"
   }
 }

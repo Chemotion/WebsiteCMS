@@ -1,12 +1,12 @@
-FROM node:18-slim AS build
+FROM node:24-slim AS build
 WORKDIR /opt/app
 COPY package*.json ./
-RUN npm config set fetch-retry-maxtimeout 600000 -g && npm install --omit=dev
+RUN npm install
 COPY . .
-RUN npm rebuild better-sqlite3 && npm run build
+RUN npm rebuild better-sqlite3 && npm run strapi build
 
-FROM node:18-slim
+FROM node:24-slim
 WORKDIR /opt/app
 COPY --from=build /opt/app ./
 EXPOSE 1337
-CMD ["npm", "start"]
+CMD ["npm", "run", "strapi", "start"]
