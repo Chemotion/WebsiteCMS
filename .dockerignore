@@ -1,2 +1,8 @@
-public/uploads/*
-!public/uploads/.gitkeep
+.env
+.git
+.strapi
+.strapi-updater.json
+build
+node_modules
+Dockerfile
+Makefile
