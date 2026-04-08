@@ -4,7 +4,11 @@ services:
     restart: unless-stopped
     env_file:
       - .env
-    ports:
-      - 8100:1337
     volumes:
       - ./database:/opt/app/database
+      - ./public/uploads:/opt/app/public/uploads
+    networks:
+      - nginx-proxy
+networks:
+  nginx-proxy:
+    external: true

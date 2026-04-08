@@ -1,7 +1,8 @@
-.strapi
-node_modules
+.env
 .git
+.strapi
 .strapi-updater.json
-Dockerfile
 build
+node_modules
+Dockerfile
 Makefile
