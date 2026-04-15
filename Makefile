@@ -2,7 +2,7 @@
 all: build push
 
 .PHONY: build
-build: .env
+build: .env database/data.sqlite public/uploads/
 	docker build . -t imgreg.chemserv.scc.kit.edu/chemotion-web/cms:latest
 
 .PHONY: push
